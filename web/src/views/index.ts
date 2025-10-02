@@ -1,0 +1,8 @@
+export { Login } from './Login'
+export { Dashboard } from './Dashboard'
+export { Students } from './Students'
+export { Pastors } from './Pastors'
+export { Services } from './Services'
+export { Attendance } from './Attendance'
+export { Reports } from './Reports'
+export { Users } from './Users'

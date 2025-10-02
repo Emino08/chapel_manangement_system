@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/SABITECK/OneDrive/Documenti/Projects/chapel management system/database/**)",
+      "Bash(php:*)",
+      "Bash(netstat:*)",
+      "Bash(curl -X POST http://localhost:8080/api/v1/auth/login -H \"Content-Type: application/json\" -d \"{\"\"email\"\":\"\"admin@chapel.local\"\",\"\"password\"\":\"\"Admin#12345\"\"}\")",
+      "Bash(curl -X GET \"http://localhost:8080/api/v1/students?limit=5\" -H \"Content-Type: application/json\" -H \"Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiIxNGM2MTMxMS05ZjcyLTExZjAtODU2MS03NDVkMjI3YzQwNDkiLCJlbWFpbCI6ImFkbWluQGNoYXBlbC5sb2NhbCIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc1OTM5OTMwOSwiZXhwIjoxNzU5NDAyOTA5LCJuYmYiOjE3NTkzOTkzMDl9.9curmfTHtbP0AhUx7WVyRn60KU-wIbFRJ6rcQOI2lZ4\")",
+      "Bash(curl:*)",
+      "Read(//c/Users/SABITECK/OneDrive/Documenti/Projects/chapel management system/**)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
